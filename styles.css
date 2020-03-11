@@ -3,6 +3,7 @@
     url("https://images6.alphacoders.com/812/thumb-1920-812301.jpg");
     width: 1900px;
     height: 1200px;
+    text-align: center;
 }
 
 
@@ -53,7 +54,10 @@ body {
 
   div.element{
       display: inline-block;
-      border-right: 2px solid rgb(45, 45, 48);
+      border-right: 1px solid rgb(45, 45, 48);
+      border-width: 2px;
+      padding: 20px;
+      align-items: center;
   }
 
   div.element:last-child{
@@ -62,4 +66,12 @@ body {
 
   .container2 {
       display: inline-block;
+      text-align: center;
+      margin: 30px;
+}
+
+.container3 {
+    display: inline;
+    text-align: center;
+    margin: 30px;
 }
