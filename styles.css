@@ -13,3 +13,53 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
   }
+
+  .icono-wix {
+      background-image: url("https://static.wixstatic.com/media/2172ee_1b759817e2fc48dca08d1f7d510ef437.png/v1/fill/w_120,h_32,al_c,q_85/2172ee_1b759817e2fc48dca08d1f7d510ef437.webp");
+      width: 120px;
+      height: 32px;
+  }
+
+  .texto-free {
+      font-family: "Merriweather";
+      font-size: 100px;
+      align-items: center;
+      text-align: center;
+      display: block;
+  }
+
+  .texto-secundario {
+    font-family: "Merriweather";
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    display: block;
+  }
+
+  .boton {
+    text-decoration: none;
+    padding: 10px;
+    width: 190px;
+    font-weight: 50;
+    font-size: 30px;
+    color: #000000;
+    background-color: #a718ba;
+    border-radius: 20px;
+    border: 0px solid #0016b0;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  div.element{
+      display: inline-block;
+      border-right: 2px solid rgb(45, 45, 48);
+  }
+
+  div.element:last-child{
+    border-right: none;
+}
+
+  .container2 {
+      display: inline-block;
+}
