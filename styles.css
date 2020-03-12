@@ -4,8 +4,15 @@
     width: 1900px;
     height: 1200px;
     text-align: center;
+    align-items: center;
+    display: inline-block;
 }
 
+.container2 {
+  display: inline-block;
+  text-align: center;
+  margin: 30px;
+}
 
 body {
     font-family: "Merriweather";
@@ -52,9 +59,13 @@ body {
     margin: auto;
   }
 
-  div.element{
+  .boton:hover {
+    background-image: linear-gradient(to bottom right, rgb(215, 18, 233), rgb(235, 110, 218));
+  }
+
+  div.element {
       display: inline-block;
-      border-right: 1px solid rgb(45, 45, 48);
+      border-right: 1px solid rgb(96, 96, 97);
       border-width: 2px;
       padding: 20px;
       align-items: center;
@@ -64,14 +75,46 @@ body {
     border-right: none;
 }
 
-  .container2 {
-      display: inline-block;
-      text-align: center;
-      margin: 30px;
-}
-
 .container3 {
     display: inline;
     text-align: center;
     margin: 30px;
+}
+
+.master-container {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+img.imagen {
+  width: 200px;
+  height: 200px;
+  opacity: 100%;
+}
+
+.imgwrapper:hover img {
+  opacity: 30%;
+}
+
+.imgwrapper p {
+  display: none;
+}
+
+.imgwrapper:hover p {
+  text-align: initial;
+  font-weight: bold;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-top: -108px;
+  margin-left: 10px;
+}
+
+.containerimg {
+  display: inline-block;
 }
