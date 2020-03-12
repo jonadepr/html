@@ -53,7 +53,6 @@ body {
     color: #ffffff;
     background-color: #a718ba;
     border-radius: 20px;
-    border: 0px solid #0016b0;
     text-align: center;
     align-items: center;
     margin: auto;
@@ -109,10 +108,10 @@ img.imagen {
 .imgwrapper:hover p {
   text-align: center;
   font-weight: bold;
-  width: 160px;
-  height: 160px;
+  width: 280px;
+  height: 280px;
   display:  block;
-  margin-top: -100px;
+  margin-top: -108px;
   margin-left: 60px;
 }
 
